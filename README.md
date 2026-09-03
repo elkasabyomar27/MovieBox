@@ -25,8 +25,7 @@ MovieBox is a responsive Angular movie-discovery front-end. Browse popular title
 ## Run locally
 
 ```bash
-npm install
-npm start
+ng serve
 ```
 
 Open `http://localhost:4200` in your browser.
@@ -38,7 +37,7 @@ The app requests title data directly from the browser using the public [TVMaze A
 ## Build
 
 ```bash
-npm run build
+ng build
 ```
 
 The production output is generated under `dist/movie-explorer`.
