@@ -2,6 +2,16 @@
 
 MovieBox is a responsive Angular movie-discovery front-end. Browse popular titles, search the catalog, filter results by genre, open a detailed title page, and save favorites to a personal list.
 
+## Team members
+
+| Name | Student ID |
+| --- | --- |
+| ____________________ | ____________________ |
+| ____________________ | ____________________ |
+| ____________________ | ____________________ |
+| ____________________ | ____________________ |
+| ____________________ | ____________________ |
+
 ## Features
 
 - Discover popular titles from a public API
