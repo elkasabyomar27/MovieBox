@@ -12,8 +12,8 @@
 
 | Presenter | Name | ID | Section to present |
 | --- | --- | --- | --- |
-| 1 | ____________________ | ____________________ | Project idea and home page |
-| 2 | ____________________ | ____________________ | Search and genre filter |
-| 3 | ____________________ | ____________________ | Details page and routing |
-| 4 | ____________________ | ____________________ | Favorites and local storage |
-| 5 | ____________________ | ____________________ | Angular structure and conclusion |
+| 1 | عبدالله حماده كامل محمد | 23011106 | Project idea and home page |
+| 2 | عمر باسم علي القصبي | 2401241539 | Search and genre filter |
+| 3 | كيرلس عادل عبدالله | 23011422 | Details page and routing |
+| 4 | محمد أيمن أبو النصر علي | 23011464 | Favorites and local storage |
+| 5 | محمد ايمن السيد | 23011465 | Angular structure and conclusion |
