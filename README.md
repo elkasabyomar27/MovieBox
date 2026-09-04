@@ -1,6 +1,6 @@
 # MovieBox
 
-MovieBox is a responsive Angular movie-discovery front-end. Browse popular titles, search the catalog, filter results by genre, open a detailed title page, and save favorites to a personal list.
+MovieBox is a responsive Angular movie-discovery front-end powered by The Movie Database (TMDB). Browse trending, popular, and upcoming movies; search the catalog; filter by genre; open full details; and save favorites to a personal list.
 
 ## Team members
 
@@ -14,9 +14,11 @@ MovieBox is a responsive Angular movie-discovery front-end. Browse popular title
 
 ## Features
 
-- Discover popular titles from a public API
-- Search by title
-- Filter results by genre
+- Fetch movie data from the TMDB public API
+- Browse **Trending**, **Popular**, and **Upcoming** movies
+- Search movies by title
+- Filter movies by genre
+- Use pagination to browse additional results
 - View poster, overview, rating, release year, runtime, language, and genres
 - Add and remove titles from **My list**
 - Persist favorites with browser local storage
@@ -29,7 +31,7 @@ MovieBox is a responsive Angular movie-discovery front-end. Browse popular title
 - TypeScript
 - Angular Router
 - Angular HttpClient
-- TVMaze public API
+- TMDB API
 - CSS
 
 ## Run locally
@@ -42,7 +44,21 @@ Open `http://localhost:4200` in your browser.
 
 ## API
 
-The app requests title data directly from the browser using the public [TVMaze API](https://www.tvmaze.com/api). No backend, database, or API key is used. Favorites remain only in the current browser through `localStorage`.
+The app requests movie data directly from the browser using the [TMDB API](https://developer.themoviedb.org/reference/intro/getting-started). No backend or database is used. Favorites remain only in the current browser through `localStorage`.
+
+Before running the project, create `src/environments/environment.ts` by copying `src/environments/environment.example.ts`, then add your TMDB API key:
+
+```ts
+export const environment = {
+  tmdbApiKey: 'YOUR_TMDB_API_KEY',
+};
+```
+
+`environment.ts` is excluded from Git, so the key is not uploaded to GitHub.
+
+## Project checklist
+
+All required and bonus Movie Explorer features are complete. See [the detailed checklist](submission/FEATURE_CHECKLIST.md).
 
 ## Build
 
